@@ -436,8 +436,9 @@ table {
 .b1{
     font-size: 30px;
     font: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: left;
+    
 }
 .b2{
     border: 1px solid rgb(102, 99, 99);

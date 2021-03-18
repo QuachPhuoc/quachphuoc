@@ -16,7 +16,7 @@ header{
     position: relative;
     top: 0;
     left: 0;
-    padding: 30px 50px;
+    padding: 10px 50px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -333,11 +333,12 @@ a ~ a{
     padding: 20px 4px;
     padding-left: 30px;
     background-color: #13ab70;
-    height: 100%;
+    height: 400px;
 }
 .container1 .code3{
     width: calc(25% - 30px);
     margin-left: 15px;
+    display: flex;
     flex-wrap: wrap;
 }
 .container1 .code3 p{
@@ -345,7 +346,6 @@ a ~ a{
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 20px;
-    padding: 7px;
 }
 .container1 .code3 p a{
     color: #fff;
@@ -378,7 +378,6 @@ a ~ a{
 .container1 .code3 ul li{
     margin-bottom: 30px;
     transition: 0.3s linear;
-    
 }
 .container1 .code3 ul li a{
     color: #fff;
@@ -387,8 +386,6 @@ a ~ a{
 }
 .container1 .code3 ul .flash-moke:hover > a{
     color: #13ab70;
-    padding-top: 10px;
-    padding-bottom: 20px;
 }
 .sm{
     margin: 30px 0;
@@ -427,7 +424,7 @@ table {
   
   th, td {
     text-align: center;
-    padding: 10px;
+    padding: 8px;
     border: 1px solid black;
   }
   tr:nth-child(even) {background-color: #f2f2f2;}
@@ -437,15 +434,17 @@ table {
     font-size: 30px;
     font: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
 }
 .b2{
-    border: 1px solid rgb(102, 99, 99);
+    border: 1px solid black;
     width: 250px ;
     height: 199px;
-    padding: 0px;
 }
-
+.img1{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+}
 div.polaroid {
     width: 80%;
     background-color: white;
@@ -458,78 +457,16 @@ div.polaroid {
     padding: 10px 20px;
   }
 
-.btn{
+.btn {
     background-color: #4CAF50; /* Green */
     border: 1px solid black;
-    color: rgb(231, 243, 236);
+    color: rgb(16, 233, 113);
     padding: 15px 40px;
-    
-    text-shadow: black;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-.btn1{
-    background-color: #4CAF50; /* Green */
-    border: 1px solid black;
-    color: rgb(231, 243, 236);
-    padding: 15px 40px;
-    border-left: 10px;
-    border-radius: 25px;
-    text-shadow: black;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    
-}
-.btn2{
-    background-color: #017c4b; 
-    color: white;
-    padding: 15px 40px;
-    font-size: 16px;
-    margin: 4px 2px;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-    border-right: 30px;
-    border-top: 200px;
-    position: relative;
-}
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-p{
-    text-align: left;
-}
-.al{
-    text-align: left;
-    position: relative;
-    padding-left: 10px;
-    font:bold;
-    position: absolute;
-    color: black;
-    
-}
-input[type=text] {
-    width: 400px;
-    height: 50px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 25px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    transition: width 0.4s ease-in-out;
-  }
-  
+    text-align: center;
 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
